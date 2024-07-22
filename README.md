@@ -4,7 +4,7 @@ STUDENT NAMES:
 2. MERCY SILALI
 3. WAFULA SIMIYU
 4. JEFFREY KANYI
-![Alt text](image.jpeg)
+![Alt text](C:\Users\hp\Documents\Modelling-project\image.jpeg)
 
 #### INTRODUCTION
 Housing is a major issue that seems to increase with the ever growing population. People not only search for secure but comfortable housing with various factors to consider to ensure proper living. However, prices in the housing sector fluctuate over time, being influenced by various factors such as size, location, number of bedrooms, year of renovation, grade, and number of floors, just to mention a few. Having  the ability to predict the prices of houses basing on various factors can be vital to real estate agencies and other stakeholders in the real estate industry.
@@ -14,11 +14,11 @@ House prices are influenced by multiple factors, making it challenging to predic
 Accurate predictions can assist in better pricing strategies and investment decisions.
 
 #### OBJECTIVES
-1. To explore and understant the King County House Sales dataset's structure and content.
+1. To explore and understand the King County House Sales dataset's structure and content.
 2. To perform data cleaning and data wrangling to prepare the dataset for analysis.
 3. To perform exploratory data analysis to understand the data and identify patterns and trends.
 4. To build a regression model to predict the house prices based on the different factors.
-5. To investigate the relationship between house prices and the different factors such as the size of the house among others
+5. To investigate the relationship between the house prices and the different factors such as the size of the of the house among others
 6. Price Prediction: Create a model that can accurately forecast the prices of houses based on features such as year built, the size of the house among other features.
 
 #### METHODOLOGY
@@ -32,7 +32,7 @@ Accurate predictions can assist in better pricing strategies and investment deci
 
 #### DATA UNDERSTANDING
 The dataset contains information about houses sold in King County between the years 2014 and 2015. The dataset is 'kc_house_data.csv'
-The column names are further detail in 'column_names.md' dataset.
+The column names are further detailed in 'column_names.md' dataset.
 The dataset contains 21597 rows and 21 columns. The dataset contains the following columns:
 1. id: Unique ID for each house.
 2. date: Date the house was sold.
@@ -80,7 +80,7 @@ The model is trained using the 'train' data and the model is tested using the 't
 
 ![Alt text](multiplereg.png)
 
-This model had an improve R squared of 0.73, which translates to 73%.
+This model had an improve R squared of 0.54, hich translates to 54%.
 
 #### RECOMMENDATIONS
 1. Collect more detailed data on house features like interior renovations and  landscaping to enhance the model's ability to capture the true value of unique house characteristics
