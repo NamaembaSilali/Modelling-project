@@ -4,7 +4,7 @@ STUDENT NAMES:
 2. MERCY SILALI
 3. WAFULA SIMIYU
 4. JEFFREY KANYI
-![Alt text](C:\Users\hp\Documents\Modelling-project\image.jpeg)
+![Alt text](image.jpeg)
 
 #### INTRODUCTION
 Housing is a major issue that seems to increase with the ever growing population. People not only search for secure but comfortable housing with various factors to consider to ensure proper living. However, prices in the housing sector fluctuate over time, being influenced by various factors such as size, location, number of bedrooms, year of renovation, grade, and number of floors, just to mention a few. Having  the ability to predict the prices of houses basing on various factors can be vital to real estate agencies and other stakeholders in the real estate industry.
@@ -80,7 +80,7 @@ The model is trained using the 'train' data and the model is tested using the 't
 
 ![Alt text](multiplereg.png)
 
-This model had an improve R squared of 0.54, hich translates to 54%.
+This model had an improve R squared of 0.73, hich translates to 73%.
 
 #### RECOMMENDATIONS
 1. Collect more detailed data on house features like interior renovations and  landscaping to enhance the model's ability to capture the true value of unique house characteristics
