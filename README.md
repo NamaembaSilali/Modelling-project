@@ -14,12 +14,12 @@ House prices are influenced by multiple factors, making it challenging to predic
 Accurate predictions can assist in better pricing strategies and investment decisions.
 
 #### OBJECTIVES
-1. To explore and understant the King County House Sales dataset's structure and content.
+1. To explore and understand the King County House Sales dataset's structure and content.
 2. To perform data cleaning and data wrangling to prepare the dataset for analysis.
 3. To perform exploratory data analysis to understand the data and identify patterns and trends.
 4. To build a regression model to predict the house prices based on the different factors.
-5. To investigate the relationship between the house prices and the different factors such as the size of the of the house among others
-6. Price Prediction: Create a model that can accurately forecast the prices of houses based on features such as year built, the size of the house among other features.
+5. To investigate the relationship between house prices and the different factors such as the size of the house among others
+6. Price Prediction: Create a model that can accurately forecast the prices of houses based on features such as yr_built, the size of the house among other features.
 
 #### METHODOLOGY
 1. Business understanding
@@ -32,7 +32,7 @@ Accurate predictions can assist in better pricing strategies and investment deci
 
 #### DATA UNDERSTANDING
 The dataset contains information about houses sold in King County between the years 2014 and 2015. The dataset is 'kc_house_data.csv'
-The column names are further detail in 'column_names.md' dataset.
+The column names are further detailed in 'column_names.md' dataset.
 The dataset contains 21597 rows and 21 columns. The dataset contains the following columns:
 1. id: Unique ID for each house.
 2. date: Date the house was sold.
@@ -80,7 +80,7 @@ The model is trained using the 'train' data and the model is tested using the 't
 
 ![Alt text](multireg.png)
 
-This model had an improve R squared of 0.54, hich translates to 54%.
+This model had an improved R squared of 0.74, which translates to 74%.
 
 #### RECOMMENDATIONS
 1. Collect more detailed data on house features like interior renovations and  landscaping to enhance the model's ability to capture the true value of unique house characteristics
